@@ -1,0 +1,59 @@
+@font-face {
+	src: url(../fonts/Montserrat-Regular.ttf);
+	font-family: Montserrat-R;
+}
+
+body{
+    background: url('../images/mountain.jpg');
+    background-position: center;
+}
+
+body h1{
+	text-align: center;
+	color: black;
+}
+
+body .box {
+	max-width: 500px;
+    min-width: 500px;  
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px;
+    height: 50%;
+    width: 50%;
+    background: white;
+    opacity: 0.9;
+    font-family: Montserrat-R;  
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+body .box:hover {
+    background: linear-gradient(#1B1641, #88ABD7);
+    color: white;
+    box-shadow: -10px 30px 70px rgba(0, 0, 0, .7);
+}
+
+body div form .placement{
+	position: absolute;
+	left: 50%; 
+	transform: translate(-50%, -50%);
+}
+
+body div .button_style{
+	float: right;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+body div .button_style:hover{
+	background-color: SandyBrown;
+}
+
+body div h2{
+	color: black;
+}
